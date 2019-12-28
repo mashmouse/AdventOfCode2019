@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build 12_02_2019",
+        "type": "shell",
+        "command": "gcc",
+        "args": ["-g", "intcode.c"],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        }
+      }
+    ]
+  }
